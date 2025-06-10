@@ -16,9 +16,10 @@
 
 
 
-if [ -f 'xpacman' ]; then echo "xpacman is already built. Try running make clean first" && exit 0; fi
+# if [ -f 'xpacman' ]; then echo "xpacman is already built. Try running make clean first" && exit 0; fi
 
-cp artifacts/Makefile.noimake .
-# sudo apt install xutils-dev -y # this gives you `xmkmf` for building with imake
+sudo apt install xutils-dev -y # this gives you `xmkmf` for building with imake
 # xmkmf
+cp artifacts/Makefile.noimake Makefile
+patch -d src -p0 < src/xpacman1.patch
 make
