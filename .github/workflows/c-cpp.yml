@@ -17,5 +17,7 @@ jobs:
       run: cp artifacts/Makefile.noimake .Makefile
     # - name: patch
     #   run: patch -d src -p0 < src/xpacman1.patch
+    - name: install xutils
+      run: sudo apt install xutils-dev libx11-dev -y
     - name: make
       run: make
