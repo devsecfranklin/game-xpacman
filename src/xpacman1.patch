@@ -1,0 +1,12 @@
+--- xpacman.c   2025-06-10 08:23:04.740322235 -0600
++++ /tmp/xpacman/xpacman.c      1996-08-14 06:08:12.000000000 -0600
+@@ -915,7 +915,7 @@
+ 
+ }
+ 
+-void draw_maze_point(int x, int y, enum mtype value) {
++void draw_maze_point(int x,int y,enum dtype value) {
+ 
+   *(map+(x*height)+y)=value;
+   *(map+((width-1-x)*height)+y)=value;
+
