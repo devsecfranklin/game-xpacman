@@ -1,5 +1,9 @@
 # XPacman version 0.11
 
+* [XPacman](https://github.com/JoesCat/xpacman)
+* [XPacman (1996)](https://zerker.ca/home/xpacman.html)
+* [Debian source code](https://archive.debian.org/debian-archive/debian/pool/non-free/x/xpacman/)
+
 (c) Peter Warden 14th August 1996
 
 This is a basic version of pacman. I've tried to concentrate on the essentials
