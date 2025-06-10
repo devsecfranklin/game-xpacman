@@ -915,7 +915,7 @@ void maze_draw(int sx,int sy,int ex,int ey) {
 
 }
 
-void draw_maze_point(int x, int y, enum mtype value) {
+void draw_maze_point(int x,int y,enum dtype value) {
 
   *(map+(x*height)+y)=value;
   *(map+((width-1-x)*height)+y)=value;
