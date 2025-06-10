@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@v4
     - name: setup Makefile
       run: cp artifacts/Makefile.noimake .Makefile
-    - name: patch
-      run: patch -d src -p0 < src/xpacman1.patch
+    # - name: patch
+    #   run: patch -d src -p0 < src/xpacman1.patch
     - name: make
       run: make
