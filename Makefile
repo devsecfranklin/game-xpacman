@@ -1,4 +1,5 @@
 # make file for xpede (c) 1996 Peter Warden
+# Built on debian 12 bookworm June 2025 franklin@bitsmasher.net
 
 LIBS = X11
 
@@ -8,7 +9,7 @@ PGM = xpacman
 
 ${PGM}: ${OBJS}
 	rm -f $@
-	${CC} -s ${PGM}.c -o $@ -l${LIBS}
+	${CC} -s src/${PGM}.c -o $@ -l${LIBS}
 
 clean:
 	rm -f ${OBJS}
