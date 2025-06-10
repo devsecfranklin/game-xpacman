@@ -1,5 +1,15 @@
 # XPacman version 0.11
 
+[![C/C++ CI](https://github.com/devsecfranklin/game-xpacman/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/devsecfranklin/game-xpacman/actions/workflows/c-cpp.yml)
+
+* [XPacman](https://github.com/JoesCat/xpacman)
+* [XPacman (1996)](https://zerker.ca/home/xpacman.html)
+* [Debian source code](https://archive.debian.org/debian-archive/debian/pool/non-free/x/xpacman/)
+
+[![Watch the video](Watch the Video)](/xpacman_demo-2025-06-10_08.27.03.mp4)
+
+## original readme
+
 (c) Peter Warden 14th August 1996
 
 This is a basic version of pacman. I've tried to concentrate on the essentials
